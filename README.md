@@ -55,7 +55,9 @@ plt.show()
 ```
 
 ### 显示图像
+```
 from matplotlib.image import imread
 img = imread("lena.png")
 plt.imshow(img)
 plt.show()
+```
