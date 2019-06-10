@@ -33,9 +33,14 @@ A = np.array([[1, 2], [2,4]])
 import numpy as np
 import matplotlib.pyplot as plt
 # 生成数据
-x = np.arrange(0, 6, 0.1)
+x = np.arange(0, 6, 0.1)
 y = np.sin(x)
 # 绘制图形
 plt.plot(x, y)
 plt.show()
+```
+### pyplot的功能
+在sin的图形中追加cos函数，添加标题，x轴标签等
+```
+x = np.arange(
 ```
